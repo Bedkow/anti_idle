@@ -10,5 +10,5 @@ keyboard
 mouse
 os
 ```
-and create a txt file in a directory and replace the placeholder ('C:/Users/xxxxxxxxx//Error.txt') with its path.
+and create a txt file in a directory and replace the placeholder in line 9 ('C:/Users/xxxxxxxxx//Error.txt') with its path.
 Maximize the txt window.
