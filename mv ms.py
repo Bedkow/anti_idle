@@ -2,6 +2,11 @@ import ctypes
 import time
 import keyboard
 import mouse
+import os
+
+#Path to a txt file to write in
+
+os.startfile('C:/Users/xxxxxxxxx//Error.txt')
 
 while True:
     time.sleep(20)  # delay by 20 seconds
@@ -26,5 +31,5 @@ while True:
         time.sleep(0.001)  # delay by 0.001 seconds
 
     mouse.click(button='left')
-
+    keyboard.send('Enter')
     keyboard.write('Error')
